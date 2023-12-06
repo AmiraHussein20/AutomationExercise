@@ -8,7 +8,7 @@ on:
         default: ''
 
 jobs:
-  E2E_Chrome_Linux_Test:
+  ChromeLinuxTest:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -30,7 +30,7 @@ jobs:
         run: mvn test -DbrowserType="chrome" -DheadlessExecution="true"  -Dtest="signUp.tests.AutomationExerciseTask"
         #run: mvn test -DbrowserType="chrome" -DheadlessExecution="true"  -Dtest="${{ github.event.inputs.testsPath }}"
 
-  E2E_Firefox_Windows_Test:
+  FirefoxWindowsTest:
     runs-on: windows-latest
     steps:
       - name: Checkout Code
