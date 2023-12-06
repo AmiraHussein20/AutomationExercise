@@ -1,0 +1,16 @@
+{
+  "testDataName": "Amira",
+  "testDataMail": "amira.hisham",
+
+  "testDataPass": "pass123",
+
+  "testDataFirstName": "Amira",
+  "testDataLastName": "Hisham",
+  "testDataCompany": "GizaSystems",
+  "testDataAddress1": "Rehab City",
+  "testDataAddress2": "Fifth Statement",
+  "testDataState": "canada",
+  "testDataCity": "Delta",
+  "testDataZipCode": "11841",
+  "testDataMobile": "01157545640"
+}
